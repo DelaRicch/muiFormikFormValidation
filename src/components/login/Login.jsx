@@ -128,9 +128,12 @@ const Login = () => {
           Submit
         </Button>
       </form>
-      <div style={{ display: "flex", gap: "1rem", marginTop: "1rem" }}>
+      <Link href="#" underline="hover" color={deepOrange[800]}>
+        Forgot Password?
+      </Link>
+      <div style={{ display: "flex", gap: "0.5rem" }}>
         <Typography variant="span">Not having an account?</Typography>
-        <Link href="#" underline="hover">
+        <Link href="#" underline="hover" color={deepOrange[800]}>
           Sign Up
         </Link>
       </div>
