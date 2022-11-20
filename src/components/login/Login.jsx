@@ -91,7 +91,7 @@ const Login = () => {
           required
         />
         <PasswordField
-          id="username"
+          id="password"
           label="Password"
           variant="standard"
           type={view ? "text" : "password"}
