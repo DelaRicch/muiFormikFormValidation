@@ -2,6 +2,7 @@ import {
   Avatar,
   Button,
   InputAdornment,
+  Link,
   Paper,
   styled,
   TextField,
@@ -127,6 +128,12 @@ const Login = () => {
           Submit
         </Button>
       </form>
+      <div style={{ display: "flex", gap: "1rem", marginTop: "1rem" }}>
+        <Typography variant="span">Not having an account?</Typography>
+        <Link href="#" underline="hover">
+          Sign Up
+        </Link>
+      </div>
     </Paper>
   );
 };
