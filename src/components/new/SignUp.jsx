@@ -179,10 +179,7 @@ const SignUp = () => {
             required
           />
           <FormControl required>
-            <FormLabel
-              id="radio-buttons-group-label"
-              sx={{ color: deepOrange[500] }}
-            >
+            <FormLabel id="radio-buttons-group-label" sx={{ color: "#535353" }}>
               Gender
             </FormLabel>
             <RadioGroup
